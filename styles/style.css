@@ -368,3 +368,45 @@ header nav {
     background-color: red;
 }
 
+/* NewsLetter Section styles */
+
+.newsletter{
+    margin: 0 160px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.input-or-submit{
+    display: flex;
+    gap: 0;
+}
+.input-or-submit input[type="text"]{
+    padding: 18px 40px;
+    width: 600px;
+    border-radius: 8px 0 0 8px;
+    border: none;
+}
+.input-or-submit input[type="submit"]{
+    background-color: #006A50;
+    padding: 0 34px;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    border-radius: 0 8px 8px 0;
+    border: none;
+}
+.input-or-submit input[type="submit"]:hover{
+    background-color: purple;
+}
+.newsletter .a:hover{
+    background-color: purple;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 8px;
+}
