@@ -371,7 +371,7 @@ header nav {
 /* NewsLetter Section styles */
 
 .newsletter{
-    margin: 0 160px;
+    margin: 0 160px 80px;
     background-color: #C6E4D6;
     border-radius: 24px;
     padding: 80px 100px;
@@ -409,4 +409,19 @@ header nav {
     padding: 10px 15px;
     color: white;
     border-radius: 8px;
+}
+
+/* Footer styles */
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    padding: 50px 240px;
+}
+
+footer .social ul {
+    display: flex;
+    list-style-type: none;
+    gap: 23px;
 }
