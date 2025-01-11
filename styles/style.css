@@ -48,6 +48,11 @@
     font-weight: bold;
     font-size: 40px;
 }
+.section-description{
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 70%;
+}
 
 
 /* nav bar style */
@@ -137,4 +142,92 @@ header nav {
     color: #0E0E0E;
     opacity: 70%;
     margin-top: 12px;
+}
+
+/* Vision Section start */
+.vision{
+    margin: 80px 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.vision .desandtitle{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.vision .cards{
+    display: flex;
+    gap: 24px;
+}
+.vision .cards .card-1, .card-2, .card-3{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 32px;
+    border-radius: 16px;
+}
+.vision .cards .icon{
+    width: 62px;
+    height: 62px;
+}
+.vision .cards .card-1 {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.vision .cards .card-2 {
+    background-color: #C6E4D6;
+}
+.vision .cards .card-3 {
+    background-color: #F7EBCF;
+}
+.vision .cards .card-1 .vision-card-button{
+    color: white;
+    padding: 11px 20px;
+    background-color: #5490F5;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.vision .cards .card-2 .vision-card-button{
+    color: white;
+    padding: 11px 20px;
+    background-color: #09A15C;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.vision .cards .card-3 .vision-card-button{
+    color: white;
+    padding: 11px 20px;
+    background-color: #FFC239;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.vision .quote-section{
+    background-image: url(./../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 24px;
+    background-position-y: 25px;
+    padding: 48px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+.vision .quote-section .quote-description{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 80%;
+}
+.vision .quote-section div{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.vision .quote-section div .quote-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
 }
