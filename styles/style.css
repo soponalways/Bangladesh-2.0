@@ -325,3 +325,46 @@ header nav {
     font-weight: 600;
 }
 
+/* Donate section style */
+
+.donate-section{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: 80px 160px;
+    justify-content: center;
+    align-items: center;
+}
+.donate-section .donate-title-des{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+.donate-section .donate-title-des .section-description{
+    text-align: center;
+}
+.donate-section .donate-cards{
+    display: flex;
+    gap: 24px;
+}
+.donate-section .donate-cards .card{
+    padding: 40px;
+    border: 1px solid rgba(14, 14, 14,0.15);
+    border-radius: 16px;
+}
+.donate-section input[type="text"]{
+    padding: 20px 400px;
+    outline: none;
+}
+.donate-section input[type="submit"]{
+    background-color: #006A50;
+    color: white;
+    padding: 17px 34px;
+    border: none;
+    border-radius: 8px;
+}
+.donate-section input[type="submit"]:hover{
+    background-color: red;
+}
+
